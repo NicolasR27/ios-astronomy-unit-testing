@@ -13,3 +13,7 @@ protocol NetworkDataLoader{
         Error?) -> Void)
     
 }
+
+func loadData(from url: URL, completion: @escaping( Data?, Error?) -> Void){
+    
+}
